@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <title>Memory Game</title>
+</head>
+<body class="body">
+
+    <div class="header">
+        <nav class="navbar navbar-light bg-dark">
+            <div class="col-12">
+                <div class="timer">
+                    <span id="hours">00</span>
+                    <span>:</span>
+                    <span id="minutes">00</span>
+                    <span>:</span>
+                    <span id="seconds">00</span>
+                    <span>:</span>
+                    <span id="milliseconds">00</span>
+                </div>
+            </div>
+            
+            <div class="col-12 option-btns">
+                <button class="btn btn-info pause">Pause</button>
+                <button class="btn btn-warning reset">Reset</button>
+            </div>
+        </nav>
+    </div>
+    
+    <div class="container">
+        <div class="row">
+            <div class="grid"></div>
+        </div>
+
+        <div class="row ">
+            <div class="col-12 row2">
+                <div class="scores">Time Stamps</div>
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+    <script src="./script.js"></script>
+</body>
+</html>

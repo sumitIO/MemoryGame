@@ -1,0 +1,41 @@
+
+
+span{
+    font-size: xx-large;
+}
+
+.body{
+    margin: auto;
+    /* background: yellow; */
+    background: rgb(40, 47, 48);
+}
+
+
+.navbar{
+    color: wheat;
+    margin-bottom: 10px;
+}
+.timer{
+    text-align: center;
+
+}
+.grid{
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    height: 300px;
+    width: 400px;
+}
+
+.row2{
+    background: rgb(89, 98, 99);
+    text-align: center;
+
+    margin-top: 120px;
+    
+    color: wheat;
+    font-size: x-large;
+}
+.option-btns{
+    text-align: center;
+}
